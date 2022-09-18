@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .Principal {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: darkred;
+            border: 1px solid;
+            border-color: violet;
+            justify-content: space-evenly;
+            gap: 2px;
+            border: 1px solid;
+
+        }
+
+        .item1 div {
+            background-color: blue;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 20px;
+            padding: 10px;
+            display: inline;
+        }
+
+        .item1 {
+            border: 1px solid white;
+            margin-top: 40px;
+            gap: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            width: 500px;
+        }
+
+        .item2 div {
+            background-color: rgb(255, 0, 204);
+            width: 100;
+            height: 50px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 20px;
+            padding: 10px;
+            display: inline;
+        }
+
+        .item2 {
+            border: 1px solid white;
+            margin-top: 40px;
+            gap: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            width: 500px;
+            
+        }
+
+        .item3 div {
+            background-color: rgb(80, 1, 149);
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 20px;
+            padding: 10px;
+            display: inline;
+        }
+
+        .item3 {
+            border: 1px solid white;
+            margin-top: 40px;
+            gap: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            width: 500px;
+        }
+
+        .item4 div {
+            background-color: rgb(81, 206, 245);
+            width: 200px;
+            height: 50px;
+            text-align: right;
+            line-height: 75px;
+            font-size: 20px;
+            padding: 10px;
+            display: inline;
+        }
+
+        .item4 {
+            border: 1px solid white;
+            margin-top: 40px;
+            padding: 40px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            width: 500px;
+        }
+
+        @media screen and (max-width: 300px) {
+            .item4 * {
+                background-color: gray !important;
+                border: 4px solid rgb(57, 33, 236);
+
+            }
+        }
+    </style>
+    <div class="Principal">
+        <div class="item1">
+            <div class="primero1">1</div>
+            <div class="primero2">2</div>
+            <div class="primero3">3</div>
+            <div class="primero4">4</div>
+            <div class="primero5">5</div>
+            <div class="primero6">6</div>
+            <div class="primero7">7</div>
+        </div>
+        <div class="item2">
+            <div style="order:4">A</div>
+            <div style="order:1">B</div>
+            <div style="order:3">C</div>
+            <div style="order:1">D</div>
+            <div style="order:2">E</div>
+        </div>
+        <div class="item3">
+            <div class="tercero1">item</div>
+            <div class="tercero2">item</div>
+            <div class="tercero3">item</div>
+            <div class="tercero4">item</div>
+            <div class="tercero5">item</div>
+            <div class="tercero6">item</div>
+            <div class="tercero7">item</div>
+            <div class="tercero8">item</div>
+        </div>
+        <div class="item4">
+            <div class="cuarto1">BIT</div>
+            <div class="cuarto2">BIT</div>
+            <div class="cuarto3">BIT</div>
+            <div class="cuarto4">BIT</div>
+            <div class="cuarto5">BIT</div>
+            <div class="cuarto6">BIT</div>
+        </div>
+    </div>
+</body>
+
+</html>
